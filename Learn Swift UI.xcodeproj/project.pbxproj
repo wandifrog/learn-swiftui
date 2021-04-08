@@ -11,6 +11,9 @@
 		1B05FA5A2604534D00DF0E35 /* Muli-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B05FA582604534D00DF0E35 /* Muli-Regular.ttf */; };
 		1B5B796F260460A100522940 /* Muli-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B5B796D260460A100522940 /* Muli-Medium.ttf */; };
 		1B5B7970260460A100522940 /* Muli-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B5B796E260460A100522940 /* Muli-Light.ttf */; };
+		1B5B7974260D859900522940 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5B7973260D859800522940 /* HomeView.swift */; };
+		1B6CD824261DB60B00FF8F1F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6CD823261DB60B00FF8F1F /* NotificationView.swift */; };
+		1B6CD828261DB71A00FF8F1F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6CD827261DB71A00FF8F1F /* ProfileView.swift */; };
 		1BCC727D2600D7D200D82E7F /* Learn_Swift_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCC727C2600D7D200D82E7F /* Learn_Swift_UIApp.swift */; };
 		1BCC727F2600D7D200D82E7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCC727E2600D7D200D82E7F /* ContentView.swift */; };
 		1BCC72812600D7D700D82E7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCC72802600D7D700D82E7F /* Assets.xcassets */; };
@@ -22,6 +25,9 @@
 		1B05FA582604534D00DF0E35 /* Muli-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Regular.ttf"; sourceTree = "<group>"; };
 		1B5B796D260460A100522940 /* Muli-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Medium.ttf"; sourceTree = "<group>"; };
 		1B5B796E260460A100522940 /* Muli-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Light.ttf"; sourceTree = "<group>"; };
+		1B5B7973260D859800522940 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1B6CD823261DB60B00FF8F1F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		1B6CD827261DB71A00FF8F1F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		1BCC72792600D7D200D82E7F /* Learn Swift UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn Swift UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCC727C2600D7D200D82E7F /* Learn_Swift_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn_Swift_UIApp.swift; sourceTree = "<group>"; };
 		1BCC727E2600D7D200D82E7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +58,23 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		1B6CD819261595CB00FF8F1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B5B7973260D859800522940 /* HomeView.swift */,
+				1B6CD827261DB71A00FF8F1F /* ProfileView.swift */,
+				1B6CD823261DB60B00FF8F1F /* NotificationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1B6CD82A261DB81900FF8F1F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		1BCC72702600D7D100D82E7F = {
 			isa = PBXGroup;
 			children = (
@@ -71,7 +94,9 @@
 		1BCC727B2600D7D200D82E7F /* Learn Swift UI */ = {
 			isa = PBXGroup;
 			children = (
+				1B6CD82A261DB81900FF8F1F /* Resources */,
 				1B05FA56260452EA00DF0E35 /* Fonts */,
+				1B6CD819261595CB00FF8F1F /* Views */,
 				1BCC727C2600D7D200D82E7F /* Learn_Swift_UIApp.swift */,
 				1BCC727E2600D7D200D82E7F /* ContentView.swift */,
 				1BCC72802600D7D700D82E7F /* Assets.xcassets */,
@@ -163,7 +188,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BCC727F2600D7D200D82E7F /* ContentView.swift in Sources */,
+				1B5B7974260D859900522940 /* HomeView.swift in Sources */,
+				1B6CD828261DB71A00FF8F1F /* ProfileView.swift in Sources */,
 				1BCC727D2600D7D200D82E7F /* Learn_Swift_UIApp.swift in Sources */,
+				1B6CD824261DB60B00FF8F1F /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
